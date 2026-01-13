@@ -8,6 +8,7 @@ int main() {
     int sum;
     string firstName;
     string lastName;
+    string fullName;
 
     cout << "Calculator Example" << endl;
     cout << "What is the first number? ";
@@ -26,7 +27,11 @@ int main() {
     cin >> firstName;
     cout << "Type in your last name:";
     cin >> lastName;
+
+    fullName = firstName + " " + lastName;
+
     cout << "Hello " << firstName << " " << lastName << endl;
+    cout << "Your full name is " << fullName << endl;
 
 
     return 0;
